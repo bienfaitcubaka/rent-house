@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+   padding: 0;
+}
+#title{
+    font-size: em;
+    font-family:  poppin;
+    font-weight: bold;
+    color: #f9f8ff;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+.header{
+    display: flex;
+    /*border-bottom: 5px solid black;*/
+    background-color: rgb(21, 19, 26);
+    position: fixed;
+    width:100%;
+    align-items: center;
+    height:47px;
+    z-index: 1;
+}
+
+nav{
+    position: absolute;
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: bold;
+    right: 100px;
+}
+nav ul{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+}
+nav ul li{
+    margin:17px;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 12px;
+
+}
+nav ul li a:hover{
+    color: #3a04fd;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 7px;
+}
+nav ul li a:focus{
+    color: goldenrod;
+}
+nav ul li a:visited{
+    color: antiquewhite;
+}
+.head{
+    background: linear-gradient(rgba(16, 16, 32, 1.8),rgba(12, 7, 7, 0)),url('background1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.head div h2{
+    font-size: 60px;
+    font-family: helvetica;
+    color: rgb(250, 244, 244);
+    text-align: center;
+    margin-left: -130px;
+    margin-top: -80px;
+}
+.head div p{
+    font-size: 20px;
+    font-family: open sans;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    margin-left: -120px;
+}
+
+.head div{
+    position: absolute;
+    margin-top:200px;
+    margin-left: 400px;
+}
+
+.head .log{
+    margin-top: 40%;
+    margin-left: 500px;
+    padding: 15px;
+    
+} 
+.head button{
+    height: 50px;
+    width: 120px;
+}
+.btn{
+    height:35px;
+    width:100px;
+    text-align: center;
+    font-size: 18px;
+    font-family: poppin;
+     border: 1px solid black;
+    border-radius:30px;
+    margin-left: 25px;
+}
+.log .btn a{
+    text-decoration: none;
+    color: #020727;
+    font-weight: bold;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.log .btn a:hover{
+    color: #d67506;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 7px;
+
+}
+
